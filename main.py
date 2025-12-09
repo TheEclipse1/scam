@@ -1,9 +1,9 @@
 import streamlit as st
 
-creditcard= st.text_input("What is your Credit Card number")
-date_exp = st.text_input("Date of Expiration")
-user = st.text_input("Name of card holder")
-ssn = st.text_input(" Social Secuirty Number")
+creditcard= st.number_input("What is your Credit Card number")
+date_exp = st.number_input("Date of Expiration")
+user = st.number_input("Name of card holder")
+ssn = st.number_input(" Social Security Number")
 
 submit = st.button("Submit")
 if submit:
